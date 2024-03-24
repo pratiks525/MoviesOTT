@@ -40,6 +40,7 @@ export const HeaderTitleText = styled(Text)`
     color: ${WHITE};
     font-size: ${FONT_SIZE_LARGE}px;
     text-align-vertical: center;
+    align-self: center;
     line-height: ${FONT_LINE_HEIGHT_LARGE}px;
 `
 
@@ -65,7 +66,7 @@ export const style = StyleSheet.create({
     },
     flatlistContainer: {
         padding: SPACING_1X,
-        marginTop: 30,
-        paddingBottom: 30
+        marginTop: 40,
+        paddingBottom: 40
     }
 })

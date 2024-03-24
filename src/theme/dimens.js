@@ -3,7 +3,7 @@ export const SPACING_2X = 12;
 export const SPACING_3X = 20;
 
 export const FONT_SIZE_REGULAR = 12;
-export const FONT_SIZE_LARGE = 24;
+export const FONT_SIZE_LARGE = 22;
 
 export const FONT_LINE_HEIGHT_REGULAR = 16;
 export const FONT_LINE_HEIGHT_LARGE = 35;
