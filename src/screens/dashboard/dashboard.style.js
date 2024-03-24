@@ -39,6 +39,7 @@ export const HeaderTitleText = styled(Text)`
     font-family: ${FONT_FAMILY_TITILLIUM_WEB_REGULAR};
     color: ${WHITE};
     font-size: ${FONT_SIZE_LARGE}px;
+    text-align-vertical: center;
     line-height: ${FONT_LINE_HEIGHT_LARGE}px;
 `
 

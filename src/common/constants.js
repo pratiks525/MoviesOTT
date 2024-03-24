@@ -18,6 +18,8 @@ export const TITLE = 'Romantic Comedy';
 
 export const NO_DATA_FOUND = 'No movies found';
 
+export const SEARCH = 'Search';
+
 export const MOVIES_DATA = {
     1: require('../assets/apis/CONTENTLISTINGPAGE-PAGE1.json'),
     2: require('../assets/apis/CONTENTLISTINGPAGE-PAGE2.json'),

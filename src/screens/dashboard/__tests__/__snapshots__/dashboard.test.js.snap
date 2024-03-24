@@ -6,7 +6,7 @@ exports[`test the Dashboard UI check Dashboard UI 1`] = `
     accessibilityIgnoresInvertColors={true}
   >
     <Image
-      className="sc-eDLKkx jwVXWA"
+      className="sc-eDLKkx jzxqAJ"
       source={
         {
           "testUri": "../../../src/assets/images/nav_bar.png",
@@ -56,7 +56,7 @@ exports[`test the Dashboard UI check Dashboard UI 1`] = `
           testID="back-icon"
         >
           <Image
-            className="sc-fsYfdN fOWyTW"
+            className="sc-fsYfdN jvyvXW"
             source={
               {
                 "testUri": "../../../src/assets/images/back.png",
@@ -65,7 +65,7 @@ exports[`test the Dashboard UI check Dashboard UI 1`] = `
           />
         </View>
         <Text
-          className="sc-jTQCzO kxeZbZ"
+          className="sc-jTQCzO epsyGX"
         >
           Romantic Comedy
         </Text>
@@ -91,7 +91,7 @@ exports[`test the Dashboard UI check Dashboard UI 1`] = `
         testID="search-icon"
       >
         <Image
-          className="sc-fsYfdN fOWyTW"
+          className="sc-fsYfdN jvyvXW"
           source={
             {
               "testUri": "../../../src/assets/images/search.png",

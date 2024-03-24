@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { FlatList, SafeAreaView, TextInput } from "react-native";
-import { IMAGES, NO_DATA_FOUND, TITLE } from "../../common/constants";
+import { IMAGES, NO_DATA_FOUND, SEARCH, TITLE } from "../../common/constants";
 import ImageWithHandledError from "../../components/imageWithHandledError";
-import { WHITE } from "../../theme/colors";
+import { LIGHT_GREY, WHITE } from "../../theme/colors";
 import { EmptyText, Header, HeaderTitleContainer, HeaderTitleText, IconContainer, ImageBackgroundHeader, ImgIcon, ItemContainer, TitleText, style } from "./dashboard.style";
 import { useDashboard } from "./useDashboard";
 
@@ -50,7 +50,7 @@ const Dashboard = () => {
                             <ImgIcon source={IMAGES.back} />
                         </IconContainer>
                         {searchEnabled ?
-                            <TextInput placeholder="Search" testID="search-input" autoFocus style={{ color: WHITE }} value={searchText} onChangeText={onChangeText} /> :
+                            <TextInput placeholderTextColor={LIGHT_GREY} placeholder={SEARCH} testID="search-input" autoFocus style={{ color: WHITE }} value={searchText} onChangeText={onChangeText} /> :
                             <HeaderTitleText>{TITLE}</HeaderTitleText>
                         }
 
