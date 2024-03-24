@@ -1,3 +1,4 @@
+// File will have constant enteries for dimension paramenters
 export const SPACING_1X = 7;
 export const SPACING_2X = 12;
 export const SPACING_3X = 20;

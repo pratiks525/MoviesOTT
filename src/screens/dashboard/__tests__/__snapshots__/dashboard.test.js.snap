@@ -6,7 +6,7 @@ exports[`test the Dashboard UI check Dashboard UI 1`] = `
     accessibilityIgnoresInvertColors={true}
   >
     <Image
-      className="sc-eDLKkx jzxqAJ"
+      className="sc-eDLKkx keSWsE"
       source={
         {
           "testUri": "../../../src/assets/images/nav_bar.png",
@@ -30,10 +30,10 @@ exports[`test the Dashboard UI check Dashboard UI 1`] = `
       }
     />
     <View
-      className="sc-dmyCSP fRGzKN"
+      className="sc-dmyCSP gSHtIV"
     >
       <View
-        className="sc-hLQSwg fdsA-dP"
+        className="sc-hLQSwg dsyzTX"
       >
         <View
           accessibilityValue={
@@ -56,7 +56,7 @@ exports[`test the Dashboard UI check Dashboard UI 1`] = `
           testID="back-icon"
         >
           <Image
-            className="sc-fsYfdN jvyvXW"
+            className="sc-fsYfdN fViPom"
             source={
               {
                 "testUri": "../../../src/assets/images/back.png",
@@ -65,7 +65,7 @@ exports[`test the Dashboard UI check Dashboard UI 1`] = `
           />
         </View>
         <Text
-          className="sc-jTQCzO epsyGX"
+          className="sc-jTQCzO dduKOR"
         >
           Romantic Comedy
         </Text>
@@ -91,7 +91,7 @@ exports[`test the Dashboard UI check Dashboard UI 1`] = `
         testID="search-icon"
       >
         <Image
-          className="sc-fsYfdN jvyvXW"
+          className="sc-fsYfdN fViPom"
           source={
             {
               "testUri": "../../../src/assets/images/search.png",
@@ -105,9 +105,9 @@ exports[`test the Dashboard UI check Dashboard UI 1`] = `
     ListEmptyComponent={[Function]}
     contentContainerStyle={
       {
-        "marginTop": 30,
+        "marginTop": 40,
         "padding": 7,
-        "paddingBottom": 30,
+        "paddingBottom": 40,
       }
     }
     data={
@@ -197,6 +197,7 @@ exports[`test the Dashboard UI check Dashboard UI 1`] = `
     getItem={[Function]}
     getItemCount={[Function]}
     keyExtractor={[Function]}
+    keyboardShouldPersistTaps="always"
     onContentSizeChange={[Function]}
     onEndReached={[Function]}
     onEndReachedThreshold={0.5}
@@ -228,7 +229,7 @@ exports[`test the Dashboard UI check Dashboard UI 1`] = `
           }
         >
           <View
-            className="sc-guDLey iACmxc"
+            className="sc-guDLey iFHBPQ"
           >
             <Image
               onError={[Function]}
@@ -246,14 +247,14 @@ exports[`test the Dashboard UI check Dashboard UI 1`] = `
               testID="thumbnail-image"
             />
             <Text
-              className="sc-beySPh jmslXv"
+              className="sc-beySPh fDxfuz"
               numberOfLines={1}
             >
               The Birds
             </Text>
           </View>
           <View
-            className="sc-guDLey iACmxc"
+            className="sc-guDLey iFHBPQ"
           >
             <Image
               onError={[Function]}
@@ -271,14 +272,14 @@ exports[`test the Dashboard UI check Dashboard UI 1`] = `
               testID="thumbnail-image"
             />
             <Text
-              className="sc-beySPh jmslXv"
+              className="sc-beySPh fDxfuz"
               numberOfLines={1}
             >
               Rear Window
             </Text>
           </View>
           <View
-            className="sc-guDLey iACmxc"
+            className="sc-guDLey iFHBPQ"
           >
             <Image
               onError={[Function]}
@@ -296,7 +297,7 @@ exports[`test the Dashboard UI check Dashboard UI 1`] = `
               testID="thumbnail-image"
             />
             <Text
-              className="sc-beySPh jmslXv"
+              className="sc-beySPh fDxfuz"
               numberOfLines={1}
             >
               Family Pot
@@ -317,7 +318,7 @@ exports[`test the Dashboard UI check Dashboard UI 1`] = `
           }
         >
           <View
-            className="sc-guDLey iACmxc"
+            className="sc-guDLey iFHBPQ"
           >
             <Image
               onError={[Function]}
@@ -335,14 +336,14 @@ exports[`test the Dashboard UI check Dashboard UI 1`] = `
               testID="thumbnail-image"
             />
             <Text
-              className="sc-beySPh jmslXv"
+              className="sc-beySPh fDxfuz"
               numberOfLines={1}
             >
               Family Pot
             </Text>
           </View>
           <View
-            className="sc-guDLey iACmxc"
+            className="sc-guDLey iFHBPQ"
           >
             <Image
               onError={[Function]}
@@ -360,14 +361,14 @@ exports[`test the Dashboard UI check Dashboard UI 1`] = `
               testID="thumbnail-image"
             />
             <Text
-              className="sc-beySPh jmslXv"
+              className="sc-beySPh fDxfuz"
               numberOfLines={1}
             >
               Rear Window
             </Text>
           </View>
           <View
-            className="sc-guDLey iACmxc"
+            className="sc-guDLey iFHBPQ"
           >
             <Image
               onError={[Function]}
@@ -385,7 +386,7 @@ exports[`test the Dashboard UI check Dashboard UI 1`] = `
               testID="thumbnail-image"
             />
             <Text
-              className="sc-beySPh jmslXv"
+              className="sc-beySPh fDxfuz"
               numberOfLines={1}
             >
               The Birds
@@ -406,7 +407,7 @@ exports[`test the Dashboard UI check Dashboard UI 1`] = `
           }
         >
           <View
-            className="sc-guDLey iACmxc"
+            className="sc-guDLey iFHBPQ"
           >
             <Image
               onError={[Function]}
@@ -424,14 +425,14 @@ exports[`test the Dashboard UI check Dashboard UI 1`] = `
               testID="thumbnail-image"
             />
             <Text
-              className="sc-beySPh jmslXv"
+              className="sc-beySPh fDxfuz"
               numberOfLines={1}
             >
               Rear Window
             </Text>
           </View>
           <View
-            className="sc-guDLey iACmxc"
+            className="sc-guDLey iFHBPQ"
           >
             <Image
               onError={[Function]}
@@ -449,14 +450,14 @@ exports[`test the Dashboard UI check Dashboard UI 1`] = `
               testID="thumbnail-image"
             />
             <Text
-              className="sc-beySPh jmslXv"
+              className="sc-beySPh fDxfuz"
               numberOfLines={1}
             >
               The Birds
             </Text>
           </View>
           <View
-            className="sc-guDLey iACmxc"
+            className="sc-guDLey iFHBPQ"
           >
             <Image
               onError={[Function]}
@@ -474,7 +475,7 @@ exports[`test the Dashboard UI check Dashboard UI 1`] = `
               testID="thumbnail-image"
             />
             <Text
-              className="sc-beySPh jmslXv"
+              className="sc-beySPh fDxfuz"
               numberOfLines={1}
             >
               Family Pot
@@ -495,7 +496,7 @@ exports[`test the Dashboard UI check Dashboard UI 1`] = `
           }
         >
           <View
-            className="sc-guDLey iACmxc"
+            className="sc-guDLey iFHBPQ"
           >
             <Image
               onError={[Function]}
@@ -513,14 +514,14 @@ exports[`test the Dashboard UI check Dashboard UI 1`] = `
               testID="thumbnail-image"
             />
             <Text
-              className="sc-beySPh jmslXv"
+              className="sc-beySPh fDxfuz"
               numberOfLines={1}
             >
               The Birds
             </Text>
           </View>
           <View
-            className="sc-guDLey iACmxc"
+            className="sc-guDLey iFHBPQ"
           >
             <Image
               onError={[Function]}
@@ -538,14 +539,14 @@ exports[`test the Dashboard UI check Dashboard UI 1`] = `
               testID="thumbnail-image"
             />
             <Text
-              className="sc-beySPh jmslXv"
+              className="sc-beySPh fDxfuz"
               numberOfLines={1}
             >
               The Birds
             </Text>
           </View>
           <View
-            className="sc-guDLey iACmxc"
+            className="sc-guDLey iFHBPQ"
           >
             <Image
               onError={[Function]}
@@ -563,7 +564,7 @@ exports[`test the Dashboard UI check Dashboard UI 1`] = `
               testID="thumbnail-image"
             />
             <Text
-              className="sc-beySPh jmslXv"
+              className="sc-beySPh fDxfuz"
               numberOfLines={1}
             >
               Rear Window
@@ -584,7 +585,7 @@ exports[`test the Dashboard UI check Dashboard UI 1`] = `
           }
         >
           <View
-            className="sc-guDLey iACmxc"
+            className="sc-guDLey iFHBPQ"
           >
             <Image
               onError={[Function]}
@@ -602,14 +603,14 @@ exports[`test the Dashboard UI check Dashboard UI 1`] = `
               testID="thumbnail-image"
             />
             <Text
-              className="sc-beySPh jmslXv"
+              className="sc-beySPh fDxfuz"
               numberOfLines={1}
             >
               Family Pot
             </Text>
           </View>
           <View
-            className="sc-guDLey iACmxc"
+            className="sc-guDLey iFHBPQ"
           >
             <Image
               onError={[Function]}
@@ -627,14 +628,14 @@ exports[`test the Dashboard UI check Dashboard UI 1`] = `
               testID="thumbnail-image"
             />
             <Text
-              className="sc-beySPh jmslXv"
+              className="sc-beySPh fDxfuz"
               numberOfLines={1}
             >
               Family Pot
             </Text>
           </View>
           <View
-            className="sc-guDLey iACmxc"
+            className="sc-guDLey iFHBPQ"
           >
             <Image
               onError={[Function]}
@@ -652,7 +653,7 @@ exports[`test the Dashboard UI check Dashboard UI 1`] = `
               testID="thumbnail-image"
             />
             <Text
-              className="sc-beySPh jmslXv"
+              className="sc-beySPh fDxfuz"
               numberOfLines={1}
             >
               Rear Window
@@ -673,7 +674,7 @@ exports[`test the Dashboard UI check Dashboard UI 1`] = `
           }
         >
           <View
-            className="sc-guDLey iACmxc"
+            className="sc-guDLey iFHBPQ"
           >
             <Image
               onError={[Function]}
@@ -691,14 +692,14 @@ exports[`test the Dashboard UI check Dashboard UI 1`] = `
               testID="thumbnail-image"
             />
             <Text
-              className="sc-beySPh jmslXv"
+              className="sc-beySPh fDxfuz"
               numberOfLines={1}
             >
               The Birds
             </Text>
           </View>
           <View
-            className="sc-guDLey iACmxc"
+            className="sc-guDLey iFHBPQ"
           >
             <Image
               onError={[Function]}
@@ -716,14 +717,14 @@ exports[`test the Dashboard UI check Dashboard UI 1`] = `
               testID="thumbnail-image"
             />
             <Text
-              className="sc-beySPh jmslXv"
+              className="sc-beySPh fDxfuz"
               numberOfLines={1}
             >
               Rear Window
             </Text>
           </View>
           <View
-            className="sc-guDLey iACmxc"
+            className="sc-guDLey iFHBPQ"
           >
             <Image
               onError={[Function]}
@@ -741,7 +742,7 @@ exports[`test the Dashboard UI check Dashboard UI 1`] = `
               testID="thumbnail-image"
             />
             <Text
-              className="sc-beySPh jmslXv"
+              className="sc-beySPh fDxfuz"
               numberOfLines={1}
             >
               The Birds
@@ -762,7 +763,7 @@ exports[`test the Dashboard UI check Dashboard UI 1`] = `
           }
         >
           <View
-            className="sc-guDLey iACmxc"
+            className="sc-guDLey iFHBPQ"
           >
             <Image
               onError={[Function]}
@@ -780,14 +781,14 @@ exports[`test the Dashboard UI check Dashboard UI 1`] = `
               testID="thumbnail-image"
             />
             <Text
-              className="sc-beySPh jmslXv"
+              className="sc-beySPh fDxfuz"
               numberOfLines={1}
             >
               Family Pot
             </Text>
           </View>
           <View
-            className="sc-guDLey iACmxc"
+            className="sc-guDLey iFHBPQ"
           >
             <Image
               onError={[Function]}
@@ -805,7 +806,7 @@ exports[`test the Dashboard UI check Dashboard UI 1`] = `
               testID="thumbnail-image"
             />
             <Text
-              className="sc-beySPh jmslXv"
+              className="sc-beySPh fDxfuz"
               numberOfLines={1}
             >
               The Birds
