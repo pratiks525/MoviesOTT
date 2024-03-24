@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageWithHandledError component renders image snapshot 1`] = `
+<Image
+  onError={[Function]}
+  source="uri"
+  testID="thumbnail-image"
+/>
+`;

@@ -1,0 +1,819 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test the Dashboard UI check Dashboard UI 1`] = `
+<RCTSafeAreaView>
+  <View
+    accessibilityIgnoresInvertColors={true}
+  >
+    <Image
+      className="sc-eDLKkx jwVXWA"
+      source={
+        {
+          "testUri": "../../../src/assets/images/nav_bar.png",
+        }
+      }
+      style={
+        [
+          {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          {
+            "height": undefined,
+            "width": undefined,
+          },
+          undefined,
+        ]
+      }
+    />
+    <View
+      className="sc-dmyCSP fRGzKN"
+    >
+      <View
+        className="sc-hLQSwg fdsA-dP"
+      >
+        <View
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          testID="back-icon"
+        >
+          <Image
+            className="sc-fsYfdN fOWyTW"
+            source={
+              {
+                "testUri": "../../../src/assets/images/back.png",
+              }
+            }
+          />
+        </View>
+        <Text
+          className="sc-jTQCzO kxeZbZ"
+        >
+          Romantic Comedy
+        </Text>
+      </View>
+      <View
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        testID="search-icon"
+      >
+        <Image
+          className="sc-fsYfdN fOWyTW"
+          source={
+            {
+              "testUri": "../../../src/assets/images/search.png",
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+  <RCTScrollView
+    ListEmptyComponent={[Function]}
+    contentContainerStyle={
+      {
+        "marginTop": 30,
+        "padding": 7,
+        "paddingBottom": 30,
+      }
+    }
+    data={
+      [
+        {
+          "name": "The Birds",
+          "poster-image": "poster1.jpg",
+        },
+        {
+          "name": "Rear Window",
+          "poster-image": "poster2.jpg",
+        },
+        {
+          "name": "Family Pot",
+          "poster-image": "poster3.jpg",
+        },
+        {
+          "name": "Family Pot",
+          "poster-image": "poster2.jpg",
+        },
+        {
+          "name": "Rear Window",
+          "poster-image": "poster1.jpg",
+        },
+        {
+          "name": "The Birds",
+          "poster-image": "poster3.jpg",
+        },
+        {
+          "name": "Rear Window",
+          "poster-image": "poster3.jpg",
+        },
+        {
+          "name": "The Birds",
+          "poster-image": "poster2.jpg",
+        },
+        {
+          "name": "Family Pot",
+          "poster-image": "poster1.jpg",
+        },
+        {
+          "name": "The Birds",
+          "poster-image": "poster1.jpg",
+        },
+        {
+          "name": "The Birds",
+          "poster-image": "poster1.jpg",
+        },
+        {
+          "name": "Rear Window",
+          "poster-image": "poster2.jpg",
+        },
+        {
+          "name": "Family Pot",
+          "poster-image": "poster3.jpg",
+        },
+        {
+          "name": "Family Pot",
+          "poster-image": "poster2.jpg",
+        },
+        {
+          "name": "Rear Window",
+          "poster-image": "poster1.jpg",
+        },
+        {
+          "name": "The Birds",
+          "poster-image": "poster3.jpg",
+        },
+        {
+          "name": "Rear Window",
+          "poster-image": "poster3.jpg",
+        },
+        {
+          "name": "The Birds",
+          "poster-image": "poster2.jpg",
+        },
+        {
+          "name": "Family Pot",
+          "poster-image": "poster1.jpg",
+        },
+        {
+          "name": "The Birds",
+          "poster-image": "poster1.jpg",
+        },
+      ]
+    }
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onEndReached={[Function]}
+    onEndReachedThreshold={0.5}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={0.0001}
+    showsVerticalScrollIndicator={false}
+    stickyHeaderIndices={[]}
+    testID="movie-list"
+    viewabilityConfigCallbackPairs={[]}
+  >
+    <View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            className="sc-guDLey iACmxc"
+          >
+            <Image
+              onError={[Function]}
+              source={
+                {
+                  "testUri": "../../../src/assets/images/poster1.jpg",
+                }
+              }
+              style={
+                {
+                  "height": 347,
+                  "width": 231.33333333333334,
+                }
+              }
+              testID="thumbnail-image"
+            />
+            <Text
+              className="sc-beySPh jmslXv"
+              numberOfLines={1}
+            >
+              The Birds
+            </Text>
+          </View>
+          <View
+            className="sc-guDLey iACmxc"
+          >
+            <Image
+              onError={[Function]}
+              source={
+                {
+                  "testUri": "../../../src/assets/images/poster2.jpg",
+                }
+              }
+              style={
+                {
+                  "height": 347,
+                  "width": 231.33333333333334,
+                }
+              }
+              testID="thumbnail-image"
+            />
+            <Text
+              className="sc-beySPh jmslXv"
+              numberOfLines={1}
+            >
+              Rear Window
+            </Text>
+          </View>
+          <View
+            className="sc-guDLey iACmxc"
+          >
+            <Image
+              onError={[Function]}
+              source={
+                {
+                  "testUri": "../../../src/assets/images/poster3.jpg",
+                }
+              }
+              style={
+                {
+                  "height": 347,
+                  "width": 231.33333333333334,
+                }
+              }
+              testID="thumbnail-image"
+            />
+            <Text
+              className="sc-beySPh jmslXv"
+              numberOfLines={1}
+            >
+              Family Pot
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            className="sc-guDLey iACmxc"
+          >
+            <Image
+              onError={[Function]}
+              source={
+                {
+                  "testUri": "../../../src/assets/images/poster2.jpg",
+                }
+              }
+              style={
+                {
+                  "height": 347,
+                  "width": 231.33333333333334,
+                }
+              }
+              testID="thumbnail-image"
+            />
+            <Text
+              className="sc-beySPh jmslXv"
+              numberOfLines={1}
+            >
+              Family Pot
+            </Text>
+          </View>
+          <View
+            className="sc-guDLey iACmxc"
+          >
+            <Image
+              onError={[Function]}
+              source={
+                {
+                  "testUri": "../../../src/assets/images/poster1.jpg",
+                }
+              }
+              style={
+                {
+                  "height": 347,
+                  "width": 231.33333333333334,
+                }
+              }
+              testID="thumbnail-image"
+            />
+            <Text
+              className="sc-beySPh jmslXv"
+              numberOfLines={1}
+            >
+              Rear Window
+            </Text>
+          </View>
+          <View
+            className="sc-guDLey iACmxc"
+          >
+            <Image
+              onError={[Function]}
+              source={
+                {
+                  "testUri": "../../../src/assets/images/poster3.jpg",
+                }
+              }
+              style={
+                {
+                  "height": 347,
+                  "width": 231.33333333333334,
+                }
+              }
+              testID="thumbnail-image"
+            />
+            <Text
+              className="sc-beySPh jmslXv"
+              numberOfLines={1}
+            >
+              The Birds
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            className="sc-guDLey iACmxc"
+          >
+            <Image
+              onError={[Function]}
+              source={
+                {
+                  "testUri": "../../../src/assets/images/poster3.jpg",
+                }
+              }
+              style={
+                {
+                  "height": 347,
+                  "width": 231.33333333333334,
+                }
+              }
+              testID="thumbnail-image"
+            />
+            <Text
+              className="sc-beySPh jmslXv"
+              numberOfLines={1}
+            >
+              Rear Window
+            </Text>
+          </View>
+          <View
+            className="sc-guDLey iACmxc"
+          >
+            <Image
+              onError={[Function]}
+              source={
+                {
+                  "testUri": "../../../src/assets/images/poster2.jpg",
+                }
+              }
+              style={
+                {
+                  "height": 347,
+                  "width": 231.33333333333334,
+                }
+              }
+              testID="thumbnail-image"
+            />
+            <Text
+              className="sc-beySPh jmslXv"
+              numberOfLines={1}
+            >
+              The Birds
+            </Text>
+          </View>
+          <View
+            className="sc-guDLey iACmxc"
+          >
+            <Image
+              onError={[Function]}
+              source={
+                {
+                  "testUri": "../../../src/assets/images/poster1.jpg",
+                }
+              }
+              style={
+                {
+                  "height": 347,
+                  "width": 231.33333333333334,
+                }
+              }
+              testID="thumbnail-image"
+            />
+            <Text
+              className="sc-beySPh jmslXv"
+              numberOfLines={1}
+            >
+              Family Pot
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            className="sc-guDLey iACmxc"
+          >
+            <Image
+              onError={[Function]}
+              source={
+                {
+                  "testUri": "../../../src/assets/images/poster1.jpg",
+                }
+              }
+              style={
+                {
+                  "height": 347,
+                  "width": 231.33333333333334,
+                }
+              }
+              testID="thumbnail-image"
+            />
+            <Text
+              className="sc-beySPh jmslXv"
+              numberOfLines={1}
+            >
+              The Birds
+            </Text>
+          </View>
+          <View
+            className="sc-guDLey iACmxc"
+          >
+            <Image
+              onError={[Function]}
+              source={
+                {
+                  "testUri": "../../../src/assets/images/poster1.jpg",
+                }
+              }
+              style={
+                {
+                  "height": 347,
+                  "width": 231.33333333333334,
+                }
+              }
+              testID="thumbnail-image"
+            />
+            <Text
+              className="sc-beySPh jmslXv"
+              numberOfLines={1}
+            >
+              The Birds
+            </Text>
+          </View>
+          <View
+            className="sc-guDLey iACmxc"
+          >
+            <Image
+              onError={[Function]}
+              source={
+                {
+                  "testUri": "../../../src/assets/images/poster2.jpg",
+                }
+              }
+              style={
+                {
+                  "height": 347,
+                  "width": 231.33333333333334,
+                }
+              }
+              testID="thumbnail-image"
+            />
+            <Text
+              className="sc-beySPh jmslXv"
+              numberOfLines={1}
+            >
+              Rear Window
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            className="sc-guDLey iACmxc"
+          >
+            <Image
+              onError={[Function]}
+              source={
+                {
+                  "testUri": "../../../src/assets/images/poster3.jpg",
+                }
+              }
+              style={
+                {
+                  "height": 347,
+                  "width": 231.33333333333334,
+                }
+              }
+              testID="thumbnail-image"
+            />
+            <Text
+              className="sc-beySPh jmslXv"
+              numberOfLines={1}
+            >
+              Family Pot
+            </Text>
+          </View>
+          <View
+            className="sc-guDLey iACmxc"
+          >
+            <Image
+              onError={[Function]}
+              source={
+                {
+                  "testUri": "../../../src/assets/images/poster2.jpg",
+                }
+              }
+              style={
+                {
+                  "height": 347,
+                  "width": 231.33333333333334,
+                }
+              }
+              testID="thumbnail-image"
+            />
+            <Text
+              className="sc-beySPh jmslXv"
+              numberOfLines={1}
+            >
+              Family Pot
+            </Text>
+          </View>
+          <View
+            className="sc-guDLey iACmxc"
+          >
+            <Image
+              onError={[Function]}
+              source={
+                {
+                  "testUri": "../../../src/assets/images/poster1.jpg",
+                }
+              }
+              style={
+                {
+                  "height": 347,
+                  "width": 231.33333333333334,
+                }
+              }
+              testID="thumbnail-image"
+            />
+            <Text
+              className="sc-beySPh jmslXv"
+              numberOfLines={1}
+            >
+              Rear Window
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            className="sc-guDLey iACmxc"
+          >
+            <Image
+              onError={[Function]}
+              source={
+                {
+                  "testUri": "../../../src/assets/images/poster3.jpg",
+                }
+              }
+              style={
+                {
+                  "height": 347,
+                  "width": 231.33333333333334,
+                }
+              }
+              testID="thumbnail-image"
+            />
+            <Text
+              className="sc-beySPh jmslXv"
+              numberOfLines={1}
+            >
+              The Birds
+            </Text>
+          </View>
+          <View
+            className="sc-guDLey iACmxc"
+          >
+            <Image
+              onError={[Function]}
+              source={
+                {
+                  "testUri": "../../../src/assets/images/poster3.jpg",
+                }
+              }
+              style={
+                {
+                  "height": 347,
+                  "width": 231.33333333333334,
+                }
+              }
+              testID="thumbnail-image"
+            />
+            <Text
+              className="sc-beySPh jmslXv"
+              numberOfLines={1}
+            >
+              Rear Window
+            </Text>
+          </View>
+          <View
+            className="sc-guDLey iACmxc"
+          >
+            <Image
+              onError={[Function]}
+              source={
+                {
+                  "testUri": "../../../src/assets/images/poster2.jpg",
+                }
+              }
+              style={
+                {
+                  "height": 347,
+                  "width": 231.33333333333334,
+                }
+              }
+              testID="thumbnail-image"
+            />
+            <Text
+              className="sc-beySPh jmslXv"
+              numberOfLines={1}
+            >
+              The Birds
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        onFocusCapture={[Function]}
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            className="sc-guDLey iACmxc"
+          >
+            <Image
+              onError={[Function]}
+              source={
+                {
+                  "testUri": "../../../src/assets/images/poster1.jpg",
+                }
+              }
+              style={
+                {
+                  "height": 347,
+                  "width": 231.33333333333334,
+                }
+              }
+              testID="thumbnail-image"
+            />
+            <Text
+              className="sc-beySPh jmslXv"
+              numberOfLines={1}
+            >
+              Family Pot
+            </Text>
+          </View>
+          <View
+            className="sc-guDLey iACmxc"
+          >
+            <Image
+              onError={[Function]}
+              source={
+                {
+                  "testUri": "../../../src/assets/images/poster1.jpg",
+                }
+              }
+              style={
+                {
+                  "height": 347,
+                  "width": 231.33333333333334,
+                }
+              }
+              testID="thumbnail-image"
+            />
+            <Text
+              className="sc-beySPh jmslXv"
+              numberOfLines={1}
+            >
+              The Birds
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;
